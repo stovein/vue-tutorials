@@ -1,5 +1,7 @@
 # todo-app
 
+https://v3.vuejs.org/guide/instance.html#creating-an-application-instance
+
 ## Project setup
 ```
 npm install
