@@ -5,12 +5,14 @@
 <button @click="deleteAll">Erase the list</button>
 <TodoList :todos="todos" :removeTodo="removeTodo" />
 <ConditionalRendering />
+<Lifecycles />
 </template>
 
 <script>
 import ConditionalRendering from './components/ConditionalRendering'
 import TodoList from './components/TodoList/TodoList'
 import NewTodoForm from './components/TodoForm/NewTodoForm'
+import Lifecycles from './components/Lifecycles'
 import {
     ref
 } from 'vue';
@@ -53,6 +55,7 @@ export default {
         ConditionalRendering,
         TodoList,
         NewTodoForm,
+        Lifecycles,
     }
 }
 </script>

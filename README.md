@@ -1,6 +1,7 @@
 # todo-app
 
 https://v3.vuejs.org/guide/instance.html#creating-an-application-instance
+https://v3.vuejs.org/style-guide/#rule-categories
 
 ## Project setup
 ```
